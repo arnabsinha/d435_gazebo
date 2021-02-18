@@ -1,6 +1,8 @@
 # Intel RealSense Gazebo ROS plugin
 
 This package is a Gazebo ROS plugin for the Intel D435 realsense camera. Through this package, one can run the D435 camera (in simulation) with a urdf/xacro files included within a launch flile.
+
+This package has been developed and tested in ROS Melodic, Ubuntu 18.04.
  
 ## Acknowledgement
 
