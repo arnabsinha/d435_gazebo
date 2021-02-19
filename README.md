@@ -3,6 +3,13 @@
 This package is a Gazebo ROS plugin for the Intel D435 realsense camera. Through this package, one can run the D435 camera (in simulation) with a urdf/xacro files included within a launch flile.
 
 This package has been developed and tested in ROS Melodic, Ubuntu 18.04.
+
+How to RUN:
+1. within catkin workspace go to srcc directory and clone this package.
+2. go to your catkin workspace and do "catkin build".
+3. after successful compilation, run the following commands:
+	a) source devel/setup.bash
+	b) roslaunch d435_gazebo test_urdf.launch
  
 ## Acknowledgement
 
