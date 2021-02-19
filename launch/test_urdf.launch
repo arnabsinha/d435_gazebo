@@ -1,7 +1,7 @@
 <launch>
     <param
         name="robot_description"
-        command="$(find xacro)/xacro '$(find realsense_gazebo_plugin)/urdf/d435_simulation.xacro'"
+        command="$(find xacro)/xacro '$(find d435_gazebo)/urdf/d435_simulation.xacro'"
     />
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
     </include>
